@@ -1,0 +1,16 @@
+{
+    "train_path" : "../dataset/rcv1v2/pickle/bert_rcv1v2_train",
+    "val_path" : "../dataset/rcv1v2/pickle/bert_rcv1v2_val",
+    "test_path" : "../dataset/rcv1v2/pickle/bert_rcv1v2_test",
+    "label_token_path" : "../dataset/rcv1v2/pickle/bert_rcv1v2_labels",
+    "batch_size" : 16,
+    "learning_rate" : 1e-04,
+    "weight_decay" : 8e-06,
+    "hidden_dim" : 1024,
+    "epoch" : 3,
+    "warmup_scale" : 0.1,
+    "threshold" : 0.5,
+    "classes" : 103,
+    "words_per_label" : 3,
+    "seed" : 0
+}

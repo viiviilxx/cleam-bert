@@ -1,0 +1,16 @@
+{
+    "train_path" : "./dataset/nyt/pickle/bert_nyt_train",
+    "val_path" : "./dataset/nyt/pickle/bert_nyt_val",
+    "test_path" : "./dataset/nyt/pickle/bert_nyt_test",
+    "label_token_path" : "./dataset/nyt/pickle/bert_nyt_labels",
+    "batch_size" : 12,
+    "learning_rate" : 2.65e-05,
+    "weight_decay" : 6e-06,
+    "hidden_dim" : 1024,
+    "epoch" : 8,
+    "warmup_scale" : 0.1,
+    "threshold" : 0.5,
+    "classes" : 166,
+    "words_per_label" : 3,
+    "seed" : 0
+}
